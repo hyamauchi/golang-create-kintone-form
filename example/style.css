@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Meiryo, "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#page-top {
+    bottom: 20px;
+    font-size: 16px;
+    position: fixed;
+    right: 20px;
+    z-index: 5;
+}
+
+#page-top a {
+    background: none repeat scroll 0 0 #999;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    opacity: 0.5;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.checkbox label, .radio label {
+    padding-left: 40px;
+}
+
+input[type=checkbox].form-control,
+input[type=radio].form-control {
+    width: 10%;
+    height: 16px;
+    margin-left: -70px;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+}

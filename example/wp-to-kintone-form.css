@@ -1,0 +1,44 @@
+form.kintone input[type=text],
+form.kintone input[type=number],
+form.kintone input[type=email],
+form.kintone input[type=password] {
+  width: 100%;
+}
+form.kintone input[type=checkbox],
+form.kintone input[type=radio] {
+  margin-right: 5px;
+}
+form.kintone textarea {
+  width: 100%;
+  height: 10em;
+}
+form.kintone .form-group {
+  margin-bottom: 2em;
+}
+form.kintone .kintone-alert {
+  border: 1px solid #EED3D7;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #F2DEDE;
+  color: #b94a48;
+  margin-bottom: 2em;
+}
+form.kintone .kintone-alert.kintone-alert-success {
+  border: 1px solid #D6E9C6;
+  background-color: #DFF0D8;
+  color: #468847;
+}
+form.kintone .kintone-error-message {
+  font-size: 80%;
+  text-align: right;
+  color: #b94a48;
+}
+form.kintone .kintone-required {
+  color: #b94a48;
+}
+form.kintone .kintone-alert-input {
+  border: 3px solid #EED3D7;
+}
+form.kintone .kintone-alert-label {
+  color: #b94a48;
+}
